@@ -4,7 +4,7 @@ DOCKER_REPO="ros:melodic-ros-px4-l4t-r32.4.4"
 CONTAINER_NAME="px4"
 USER_VOLUME=""
 USER_COMMAND=""
-USER_NAME=riot
+USER_NAME=xaviernx
 
 # This will enable running containers with different names
 # It will create a local workspace and link it to the image's catkin_ws
