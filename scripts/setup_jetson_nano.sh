@@ -32,7 +32,7 @@ fi
 if [ ! -d "${HOME}/src/jetson-containers" ]; then
     echo " " && echo "Cloning jetson-containers ..." && echo " " && sleep 1
     cd ${HOME}/src
-    git clone https://github.com/mzahana/jetson-containers.git
+    git clone https://github.com/SystemTrio-Robotics/jetson-containers.git
 else
     echo " " && echo "jetson-containers alredy exist in $HOME/src . Pulling latest from Github repo..." && echo " " && sleep 1
     cd ${HOME}/src/jetson-containers
