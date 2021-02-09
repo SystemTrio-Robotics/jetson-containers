@@ -8,7 +8,7 @@ FROM ${BASE_IMAGE}
 ARG ROS_PKG=ros_base
 ENV ROS_DISTRO=melodic
 ENV ROS_ROOT=/opt/ros/${ROS_DISTRO}
-ENV CONTAINER_USER=xaviernx
+ENV CONTAINER_USER=riot
 
 ENV DEBIAN_FRONTEND=noninteractive
 
