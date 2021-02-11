@@ -10,12 +10,13 @@ USER_NAME=xaviernx
 # It will create a local workspace and link it to the image's catkin_ws
 if [ "$1" != "" ]; then
     CONTAINER_NAME=$1
-    WORKSPACE_DIR=~/$1_shared_volume
-    if [ ! -d $WORKSPACE_DIR ]; then
-        mkdir -p $WORKSPACE_DIR
-    fi
-    echo "Container name:$1 WORSPACE DIR:$WORKSPACE_DIR" 
 fi
+
+WORKSPACE_DIR=~/${CONTAINER_NAME}_shared_volume
+if [ ! -d $WORKSPACE_DIR ]; then
+    mkdir -p $WORKSPACE_DIR
+fi
+echo "Container name:${CONTAINER_NAME} WORSPACE DIR:$WORKSPACE_DIR" 
 
 #echo "CONTAINER_IMAGE: $CONTAINER_IMAGE"
 #echo "USER_VOLUME:     $USER_VOLUME"
