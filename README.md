@@ -11,7 +11,7 @@ This section is added to provide instructions regarding the extra steps required
 * Copy the content of the `scripts/setup_jetson_nano.sh` to your Jetson Nano, in a file, for example in the home directory. Make the file executable, `chmod +x setup_jetson_nano.sh`
 * execute the setup script, `./setup_jetson_nano.sh`
 * Reboot your Jetson after the setup is completed
-* The setup script creates an alias in the `$HOME/.bashrc` file. The alias is named `px4_container`. You can execute this alias in a terminal and you will be logged into the container with username (and password) `riot`.
+* The setup script creates an alias in the `$HOME/.bashrc` file. The alias is named `px4_container`. You can execute this alias in a terminal and you will be logged into the container with username (and password) `xaviernx`.
 * Setup instruction for **Jetson Nano 4G shield** can be found [here ](https://github.com/phillipdavidstearns/simcom_wwan-setup)
 
 ## Communication with PX4
